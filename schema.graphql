@@ -1,0 +1,19 @@
+interface Animal {
+  id: ID!
+  name: String!
+  age: Int!
+}
+
+type Cat implements Animal {
+  id: ID!
+  name: String!
+  age: Int!
+  lives: Int!
+}
+
+type Dog implements Animal {
+  id: ID!
+  name: String!
+  age: Int!
+  breedDescription: String!
+}
